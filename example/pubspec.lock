@@ -12,10 +12,11 @@ packages:
   baseflow_plugin_template:
     dependency: "direct main"
     description:
-      name: baseflow_plugin_template
-      sha256: f3483837bf8737db013e94af2277ffb9b26020c54e1dd2303c0925e1eceb9694
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "1210851b07f9c0c57e2ba7d0bd27d6f875b6818a"
+      url: "https://github.com/kumsumit/baseflow_plugin_template.git"
+    source: git
     version: "2.1.2"
   boolean_selector:
     dependency: transitive
@@ -114,42 +115,47 @@ packages:
   permission_handler_android:
     dependency: transitive
     description:
-      name: permission_handler_android
-      sha256: f23cfe9af0d49c6b9fd8a8b09f7b3301ca7e346204939b5afef4404d36d2608f
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: e51f1cff7c2145858fe9a264025d3214d67d30fc
+      url: "https://github.com/kumsumit/permission_handler_android.git"
+    source: git
     version: "11.0.1"
   permission_handler_apple:
     dependency: transitive
     description:
-      name: permission_handler_apple
-      sha256: "99e220bce3f8877c78e4ace901082fb29fa1b4ebde529ad0932d8d664b34f3f5"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "971fd2730780a79ceec5706da65dcbd15d43d54a"
+      url: "https://github.com/kumsumit/permission_handler_apple.git"
+    source: git
     version: "9.1.4"
   permission_handler_platform_interface:
     dependency: transitive
     description:
-      name: permission_handler_platform_interface
-      sha256: f2343e9fa9c22ae4fd92d4732755bfe452214e7189afcc097380950cf567b4b2
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "9c264a66a4d61e5b0e95217e33531ec196043e5b"
+      url: "https://github.com/kumsumit/permission_handler_platform_interface.git"
+    source: git
     version: "3.11.5"
   permission_handler_windows:
     dependency: transitive
     description:
-      name: permission_handler_windows
-      sha256: cc074aace208760f1eee6aa4fae766b45d947df85bc831cde77009cdb4720098
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "3bd96ba78545b4380a5ebe368faebaacd8502aea"
+      url: "https://github.com/kumsumit/permission_handler_windows.git"
+    source: git
     version: "0.1.3"
   plugin_platform_interface:
     dependency: transitive
     description:
-      name: plugin_platform_interface
-      sha256: da3fdfeccc4d4ff2da8f8c556704c08f912542c5fb3cf2233ed75372384a034d
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "1d6e1c5fae93958d50ce0595ef687d8195088d21"
+      url: "https://github.com/kumsumit/plugin_platform_interface.git"
+    source: git
     version: "2.1.6"
   sky_engine:
     dependency: transitive
@@ -207,66 +213,74 @@ packages:
   url_launcher:
     dependency: "direct dev"
     description:
-      name: url_launcher
-      sha256: "47e208a6711459d813ba18af120d9663c20bdf6985d6ad39fe165d2538378d27"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "07c6fd4ffa0f7644598fc0e7157d896dd186cd61"
+      url: "https://github.com/kumsumit/url_launcher.git"
+    source: git
     version: "6.1.14"
   url_launcher_android:
     dependency: transitive
     description:
-      name: url_launcher_android
-      sha256: b04af59516ab45762b2ca6da40fa830d72d0f6045cd97744450b73493fa76330
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "0a39fe254e9955a08cb94507f5545d74ae3f1b51"
+      url: "https://github.com/kumsumit/url_launcher_android.git"
+    source: git
     version: "6.1.0"
   url_launcher_ios:
     dependency: transitive
     description:
-      name: url_launcher_ios
-      sha256: "7c65021d5dee51813d652357bc65b8dd4a6177082a9966bc8ba6ee477baa795f"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: f87fbb62b67ab95c329ed9b18f199a618ae8193b
+      url: "https://github.com/kumsumit/url_launcher_ios.git"
+    source: git
     version: "6.1.5"
   url_launcher_linux:
     dependency: transitive
     description:
-      name: url_launcher_linux
-      sha256: b651aad005e0cb06a01dbd84b428a301916dc75f0e7ea6165f80057fee2d8e8e
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "13dfea262ea827b73e1492022da6e3e7fa4f68d7"
+      url: "https://github.com/kumsumit/url_launcher_linux.git"
+    source: git
     version: "3.0.6"
   url_launcher_macos:
     dependency: transitive
     description:
-      name: url_launcher_macos
-      sha256: b55486791f666e62e0e8ff825e58a023fd6b1f71c49926483f1128d3bbd8fe88
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: c0db03ee0d15fd8c1ac91d8ce2e319c64f27a9b5
+      url: "https://github.com/kumsumit/url_launcher_macos.git"
+    source: git
     version: "3.0.7"
   url_launcher_platform_interface:
     dependency: transitive
     description:
-      name: url_launcher_platform_interface
-      sha256: "95465b39f83bfe95fcb9d174829d6476216f2d548b79c38ab2506e0458787618"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: ea6e4db740d406561dd53b5acf7181406572a35d
+      url: "https://github.com/kumsumit/url_launcher_platform_interface.git"
+    source: git
     version: "2.1.5"
   url_launcher_web:
     dependency: transitive
     description:
-      name: url_launcher_web
-      sha256: "2942294a500b4fa0b918685aff406773ba0a4cd34b7f42198742a94083020ce5"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "3328ddc72fb3680014e3737239f9d1b9e8d67b76"
+      url: "https://github.com/kumsumit/url_launcher_web.git"
+    source: git
     version: "2.0.20"
   url_launcher_windows:
     dependency: transitive
     description:
-      name: url_launcher_windows
-      sha256: "95fef3129dc7cfaba2bc3d5ba2e16063bb561fc6d78e63eee16162bc70029069"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "083d2dbce9481a353db8e9db9ec14594c09b8493"
+      url: "https://github.com/kumsumit/url_launcher_windows.git"
+    source: git
     version: "3.0.8"
   vector_math:
     dependency: transitive

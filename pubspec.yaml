@@ -28,7 +28,7 @@ dependencies:
   permission_handler_apple: 
     git: https://github.com/kumsumit/permission_handler_apple.git
   permission_handler_windows: 
-    git: https://github.com/kumsumit/permission_handler_windows.gitv
+    git: https://github.com/kumsumit/permission_handler_windows.git
   permission_handler_platform_interface: 
     git: https://github.com/kumsumit/permission_handler_platform_interface.git
 
