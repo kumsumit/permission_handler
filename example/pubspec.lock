@@ -14,7 +14,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "1210851b07f9c0c57e2ba7d0bd27d6f875b6818a"
+      resolved-ref: aa3a3e0ce0d20d9a566193ad1be12faf6c167f8a
       url: "https://github.com/kumsumit/baseflow_plugin_template.git"
     source: git
     version: "2.1.2"
@@ -46,10 +46,10 @@ packages:
     dependency: transitive
     description:
       name: collection
-      sha256: f092b211a4319e98e5ff58223576de6c2803db36221657b46c82574721240687
+      sha256: ee67cb0715911d28db6bf4af1026078bd6f0128b07a5f66fb2ed94ec6783c09a
       url: "https://pub.dev"
     source: hosted
-    version: "1.17.2"
+    version: "1.18.0"
   fake_async:
     dependency: transitive
     description:
@@ -73,38 +73,62 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  leak_tracker:
+    dependency: transitive
+    description:
+      name: leak_tracker
+      sha256: "78eb209deea09858f5269f5a5b02be4049535f568c07b275096836f01ea323fa"
+      url: "https://pub.dev"
+    source: hosted
+    version: "10.0.0"
+  leak_tracker_flutter_testing:
+    dependency: transitive
+    description:
+      name: leak_tracker_flutter_testing
+      sha256: b46c5e37c19120a8a01918cfaf293547f47269f7cb4b0058f21531c2465d6ef0
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.1"
+  leak_tracker_testing:
+    dependency: transitive
+    description:
+      name: leak_tracker_testing
+      sha256: a597f72a664dbd293f3bfc51f9ba69816f84dcd403cdac7066cb3f6003f3ab47
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.1"
   matcher:
     dependency: transitive
     description:
       name: matcher
-      sha256: "1803e76e6653768d64ed8ff2e1e67bea3ad4b923eb5c56a295c3e634bad5960e"
+      sha256: d2323aa2060500f906aa31a895b4030b6da3ebdcc5619d14ce1aada65cd161cb
       url: "https://pub.dev"
     source: hosted
-    version: "0.12.16"
+    version: "0.12.16+1"
   material_color_utilities:
     dependency: transitive
     description:
       name: material_color_utilities
-      sha256: "9528f2f296073ff54cb9fee677df673ace1218163c3bc7628093e7eed5203d41"
+      sha256: "0e0a020085b65b6083975e499759762399b4475f766c21668c4ecca34ea74e5a"
       url: "https://pub.dev"
     source: hosted
-    version: "0.5.0"
+    version: "0.8.0"
   meta:
     dependency: transitive
     description:
       name: meta
-      sha256: "3c74dbf8763d36539f114c799d8a2d87343b5067e9d796ca22b5eb8437090ee3"
+      sha256: d584fa6707a52763a52446f02cc621b077888fb63b93bbcb1143a7be5a0c0c04
       url: "https://pub.dev"
     source: hosted
-    version: "1.9.1"
+    version: "1.11.0"
   path:
     dependency: transitive
     description:
       name: path
-      sha256: "8829d8a55c13fc0e37127c29fedf290c102f4e40ae94ada574091fe0ff96c917"
+      sha256: "087ce49c3f0dc39180befefc60fdb4acd8f8620e5682fe2476afd0b3688bb4af"
       url: "https://pub.dev"
     source: hosted
-    version: "1.8.3"
+    version: "1.9.0"
   permission_handler:
     dependency: "direct dev"
     description:
@@ -117,7 +141,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: e51f1cff7c2145858fe9a264025d3214d67d30fc
+      resolved-ref: ceb438aa590be45eab251e031fd0aab8f393f7c1
       url: "https://github.com/kumsumit/permission_handler_android.git"
     source: git
     version: "11.0.1"
@@ -126,7 +150,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "971fd2730780a79ceec5706da65dcbd15d43d54a"
+      resolved-ref: "4a2a9851826f0fd25a7d32f30b9130000e193dd1"
       url: "https://github.com/kumsumit/permission_handler_apple.git"
     source: git
     version: "9.1.4"
@@ -135,7 +159,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "9c264a66a4d61e5b0e95217e33531ec196043e5b"
+      resolved-ref: dce66af6a4fe41b07043b2e99da6f38fbbb3c7f2
       url: "https://github.com/kumsumit/permission_handler_platform_interface.git"
     source: git
     version: "3.11.5"
@@ -144,7 +168,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "3bd96ba78545b4380a5ebe368faebaacd8502aea"
+      resolved-ref: "1d02a61ff8afc03434f1b7e266d15943f404ae89"
       url: "https://github.com/kumsumit/permission_handler_windows.git"
     source: git
     version: "0.1.3"
@@ -153,10 +177,10 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "1d6e1c5fae93958d50ce0595ef687d8195088d21"
+      resolved-ref: "0258f99fc7505eebfc1332998552f585cb27751d"
       url: "https://github.com/kumsumit/plugin_platform_interface.git"
     source: git
-    version: "2.1.6"
+    version: "2.1.8"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -174,18 +198,18 @@ packages:
     dependency: transitive
     description:
       name: stack_trace
-      sha256: c3c7d8edb15bee7f0f74debd4b9c5f3c2ea86766fe4178eb2a18eb30a0bdaed5
+      sha256: "73713990125a6d93122541237550ee3352a2d84baad52d375a4cad2eb9b7ce0b"
       url: "https://pub.dev"
     source: hosted
-    version: "1.11.0"
+    version: "1.11.1"
   stream_channel:
     dependency: transitive
     description:
       name: stream_channel
-      sha256: "83615bee9045c1d322bbbd1ba209b7a749c2cbcdcb3fdd1df8eb488b3279c1c8"
+      sha256: ba2aa5d8cc609d96bbb2899c28934f9e1af5cddbd60a827822ea467161eb54e7
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.1"
+    version: "2.1.2"
   string_scanner:
     dependency: transitive
     description:
@@ -206,82 +230,82 @@ packages:
     dependency: transitive
     description:
       name: test_api
-      sha256: "75760ffd7786fffdfb9597c35c5b27eaeec82be8edfb6d71d32651128ed7aab8"
+      sha256: "5c2f730018264d276c20e4f1503fd1308dfbbae39ec8ee63c5236311ac06954b"
       url: "https://pub.dev"
     source: hosted
-    version: "0.6.0"
+    version: "0.6.1"
   url_launcher:
     dependency: "direct dev"
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "07c6fd4ffa0f7644598fc0e7157d896dd186cd61"
+      resolved-ref: d5f53176e87d10fe862b0c49813c85478599502e
       url: "https://github.com/kumsumit/url_launcher.git"
     source: git
-    version: "6.1.14"
+    version: "6.2.5"
   url_launcher_android:
     dependency: transitive
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "0a39fe254e9955a08cb94507f5545d74ae3f1b51"
+      resolved-ref: "35035b4188fb6524fd3f673f1fe71c7dcff22c14"
       url: "https://github.com/kumsumit/url_launcher_android.git"
     source: git
-    version: "6.1.0"
+    version: "6.3.0"
   url_launcher_ios:
     dependency: transitive
     description:
       path: "."
       ref: HEAD
-      resolved-ref: f87fbb62b67ab95c329ed9b18f199a618ae8193b
+      resolved-ref: "901f11a2bd98bc8c7418aed8e41a7f2a5db40ef5"
       url: "https://github.com/kumsumit/url_launcher_ios.git"
     source: git
-    version: "6.1.5"
+    version: "6.2.5"
   url_launcher_linux:
     dependency: transitive
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "13dfea262ea827b73e1492022da6e3e7fa4f68d7"
+      resolved-ref: f338722453649bc2ae59ef37c29cd5b2f1f4ae46
       url: "https://github.com/kumsumit/url_launcher_linux.git"
     source: git
-    version: "3.0.6"
+    version: "3.1.1"
   url_launcher_macos:
     dependency: transitive
     description:
       path: "."
       ref: HEAD
-      resolved-ref: c0db03ee0d15fd8c1ac91d8ce2e319c64f27a9b5
+      resolved-ref: "6045be052bbe230f17848e5e33a029b6d68d7507"
       url: "https://github.com/kumsumit/url_launcher_macos.git"
     source: git
-    version: "3.0.7"
+    version: "3.1.0"
   url_launcher_platform_interface:
     dependency: transitive
     description:
       path: "."
       ref: HEAD
-      resolved-ref: ea6e4db740d406561dd53b5acf7181406572a35d
+      resolved-ref: a0f439c110362858a0ff16d6d3bdd389634fb0e8
       url: "https://github.com/kumsumit/url_launcher_platform_interface.git"
     source: git
-    version: "2.1.5"
+    version: "2.3.2"
   url_launcher_web:
     dependency: transitive
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "3328ddc72fb3680014e3737239f9d1b9e8d67b76"
+      resolved-ref: a120bb7a45e8f7346da1c909206851a67106e7b6
       url: "https://github.com/kumsumit/url_launcher_web.git"
     source: git
-    version: "2.0.20"
+    version: "2.3.0"
   url_launcher_windows:
     dependency: transitive
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "083d2dbce9481a353db8e9db9ec14594c09b8493"
+      resolved-ref: "2faf50eb7545f3a6056cc0699c2f0471b0912ac9"
       url: "https://github.com/kumsumit/url_launcher_windows.git"
     source: git
-    version: "3.0.8"
+    version: "3.1.1"
   vector_math:
     dependency: transitive
     description:
@@ -290,14 +314,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
+  vm_service:
+    dependency: transitive
+    description:
+      name: vm_service
+      sha256: b3d56ff4341b8f182b96aceb2fa20e3dcb336b9f867bc0eafc0de10f1048e957
+      url: "https://pub.dev"
+    source: hosted
+    version: "13.0.0"
   web:
     dependency: transitive
     description:
       name: web
-      sha256: dc8ccd225a2005c1be616fe02951e2e342092edf968cf0844220383757ef8f10
+      sha256: "97da13628db363c635202ad97068d47c5b8aa555808e7a9411963c533b449b27"
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.4-beta"
+    version: "0.5.1"
 sdks:
-  dart: ">=3.1.0 <4.0.0"
-  flutter: ">=3.13.0"
+  dart: ">=3.3.1 <4.0.0"
+  flutter: ">=3.19.3"
