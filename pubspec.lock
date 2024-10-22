@@ -278,7 +278,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "099df4ad74fd990c958b583b01919b8d1384ffd5"
+      resolved-ref: "79bb6ca2deb678af4622260feb12b74ecac07d2f"
       url: "https://github.com/kumsumit/permission_handler_android.git"
     source: git
     version: "12.0.13"
@@ -287,7 +287,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "475042eafc4ead3c8bedad68bf06e921ba91cec6"
+      resolved-ref: "8a32682ceb3150d0ca55dd8304f88572a11037ba"
       url: "https://github.com/kumsumit/permission_handler_apple.git"
     source: git
     version: "9.4.5"
